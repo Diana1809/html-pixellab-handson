@@ -17,6 +17,38 @@
 
 <body>
   <form>
+    <label for="name">* Name:</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      minlength="5"
+      maxlength="30"
+      placeholder="Nume"
+      required
+    ><br><br>
+
+    <label for="surname">* Surname:</label>
+    <input
+      type="text"
+      name="surname"
+      id="surname"
+      minlength="5"
+      maxlength="30"
+      placeholder="Prenume"
+      required
+    ><br><br>
+
+    <label for="details">* Details:</label>
+    <textarea
+      name="details"
+      id="details"
+      cols="30"
+      rows="8"
+      placeholder="Detalii"
+      required
+    ></textarea><br><br>
+
     <label for="message">* Message:</label>
     <textarea
       name="message"
@@ -25,8 +57,12 @@
       rows="4"
       placeholder="Mesaj"
       required
-    ></textarea>
+    ></textarea><br><br>
 
+    <button
+      type="submit"
+      name="submit"
+    >Submit</button>
   </form>
 
 
