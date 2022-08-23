@@ -7,7 +7,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>Document</title>
+  <title>Ex 7</title>
 
   <link
     rel="stylesheet"
@@ -20,20 +20,17 @@
     <a
       href="/"
       title="Home"
-    >Home
-    </a> *
+    >Home</a> *
 
     <a
       href="/"
       title="Place Order"
-    ><b>Place Order</b>
-    </a> *
+    ><b>Place Order</b></a> *
 
     <a
       href="/"
       title="Customer Service"
-    >Customer Service
-    </a> *
+    >Customer Service</a> *
 
     <a
       href="/"
@@ -180,9 +177,7 @@
         required
       >
     </fieldset>
-  </form>
 
-  <form>
     <fieldset>
       <legend>Address</legend>
 
@@ -204,11 +199,11 @@
         required
       > <br><br>
 
-      <label for="phone2">*Phone:</label>
+      <label for="address-phone">*Phone:</label>
       <input
         type="tel"
-        name="phone2"
-        id="phone2"
+        name="address-phone"
+        id="address-phone"
         placeholder="Phone"
         required
       > <br><br>
@@ -245,7 +240,9 @@
         id="state"
         required
       >
-        <option value="">--State--</option>
+        <option value="state">--State--</option>
+        <option value="Switzerland">Switzerland</option>
+        <option value="Romania">Romania</option>
       </select><br><br>
 
       <label for="postcode">*Postcode</label>
@@ -257,49 +254,53 @@
         required
       >
     </fieldset>
-  </form>
 
-  <form>
     <fieldset>
       <legend>Card Information</legend>
 
-      <label for="card number">*Card Number</label>
+      <label for="card-number">*Card Number</label>
       <input
         type="text"
-        name="card number"
-        id="card number"
+        name="card-number"
+        id="card-number"
         placeholder="Card Number"
         required
       > <br><br>
 
-      <label for="name on card">*Name on card</label>
+      <label for="card-name">*Name on card</label>
       <input
         type="text"
-        name="name on card"
-        id="name on card"
+        name="card-name"
+        id="card-name"
         placeholder="Name on card"
         required
       > <br><br>
 
-      <label for="expiry month">*Expiry Month</label>
+      <label for="card-expiry-month">*Expiry Month</label>
       <select
-        name="expiry month"
-        id="expiry month"
+        name="card-expiry-month"
+        id="card-expiry-month"
         required
       >
-        <option value="">January</option>
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
       </select>
 
-      <label for="expiry year">*Expiry Year</label>
+      <label for="card-expiry-year">*Expiry Year</label>
       <select
-        name="expiry year"
-        id="expiry year"
+        name="card-expiry-year"
+        id="card-expiry-year"
         required
       >
-        <option value="">2019</option>
+        <option value="2019">2019</option>
+        <option value="2018">2018</option>
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
       </select> <br><br>
 
-      <label for="card-cvvcvv">*CVV</label>
+      <label for="card-cvv">*CVV</label>
       <input
         type="text"
         name="card-cvv"
@@ -310,9 +311,7 @@
 
       <p><i>We do not store credit card information!</i></p>
     </fieldset>
-  </form>
 
-  <form>
     <fieldset>
       <legend>Form Controls</legend>
 
@@ -332,10 +331,10 @@
 
       <input
         type="checkbox"
-        name="subscription"
-        id="subscription"
+        name="subscribe"
+        id="subscribe"
       >
-      <label for="subscription">Can we send emails?</label> <br><br>
+      <label for="subscribe">Can we send emails?</label> <br><br>
 
       <input
         type="checkbox"
@@ -344,8 +343,17 @@
       >
       <label for="gdpr-consent">GDPR generic consent?</label> <br><br>
 
-      <button type="submit">PLACE ORDER</button>
-      <button type="reset">Reset</button>
+      <button
+        type="submit"
+        id="submit"
+        name="submit"
+      >PLACE ORDER</button>
+
+      <button
+        type="reset"
+        id="reset"
+        name="reset"
+      >Reset</button>
     </fieldset>
   </form>
 
@@ -359,26 +367,22 @@
     <a
       href="/"
       title="Home"
-    >Home
-    </a> *
+    >Home</a>*
 
     <a
       href="/"
       title="Place Order"
-    ><b>Place Order</b>
-    </a> *
+    ><b>Place Order</b></a>*
 
     <a
       href="/"
       title="Customer Service"
-    >Customer Service
-    </a> *
+    >Customer Service</a>*
 
     <a
       href="/"
       title="Contact"
-    >Contact
-    </a>
+    >Contact</a>
   </p>
   <div
     class="pixeltab-host"
