@@ -7,7 +7,7 @@ p i {
 }
 
 .links a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 a[href^="http://"]
