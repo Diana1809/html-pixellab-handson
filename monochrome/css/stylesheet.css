@@ -270,6 +270,7 @@ box-sizing: border-box;
 body {
     font-family: 'Roboto', 'Playfair Display', serif;
     color: #707070;
+    font-size: 16px;
   }
 
 a {
@@ -277,3 +278,49 @@ a {
   text-decoration: none;
 }
 
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+/* header */
+.header {
+    margin: 30px auto;
+}
+
+.header-secondary {
+    height: 340px;
+    background: #1b1927 url('../images/images/Banner/banner.png') center center/
+    cover no-repeat;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 96px;
+}
+
+.header-secondary .header-connect {
+    float: left;
+}
+.header-secondary .header-connect li {
+    display: inline-block;
+}
+
+.header-secondary .header-connect li:first-child {
+    padding-right: 16px;
+    padding-left: 16px;
+    border-right: 1px solid #fff;
+}
+
+.header-secondary .header-controls {
+    float: right;
+}
+
+.header-secondary .header-controls > ul {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+/* ./header */
