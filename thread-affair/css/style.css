@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-BlackItalic.woff') format('woff');
+    url('../fonts/Roboto-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -12,7 +12,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
-      url('../fonts/Roboto-Thin.woff') format('woff');
+    url('../fonts/Roboto-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -21,7 +21,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-MediumItalic.woff') format('woff');
+    url('../fonts/Roboto-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -30,7 +30,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-ThinItalic.woff') format('woff');
+    url('../fonts/Roboto-ThinItalic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
   font-display: swap;
@@ -39,7 +39,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Light.woff2') format('woff2'),
-      url('../fonts/Roboto-Light.woff') format('woff');
+    url('../fonts/Roboto-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -48,7 +48,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Black.woff2') format('woff2'),
-      url('../fonts/Roboto-Black.woff') format('woff');
+    url('../fonts/Roboto-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -57,7 +57,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-      url('../fonts/Roboto-Regular.woff') format('woff');
+    url('../fonts/Roboto-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -66,7 +66,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-BoldItalic.woff') format('woff');
+    url('../fonts/Roboto-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -75,7 +75,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
-      url('../fonts/Roboto-Medium.woff') format('woff');
+    url('../fonts/Roboto-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -84,7 +84,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-LightItalic.woff') format('woff');
+    url('../fonts/Roboto-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -93,7 +93,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
-      url('../fonts/Roboto-Bold.woff') format('woff');
+    url('../fonts/Roboto-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -102,61 +102,140 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
-      url('../fonts/Roboto-Italic.woff') format('woff');
+    url('../fonts/Roboto-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 /*fonts*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -223,13 +302,13 @@ a {
 }
 
 .header-secondary .header-controls .user-controls .icon {
-font-size: 24px;
-margin-left: 8px;
+  font-size: 24px;
+  margin-left: 8px;
 }
 
 .header-secondary .header-controls li:last-child a {
-font-size: 28px;
-position: relative;
+  font-size: 28px;
+  position: relative;
 }
 
 .header-secondary .header-controls .cart-controls .qty {
@@ -259,9 +338,9 @@ position: relative;
 }
 
 .nav-primary {
-text-align: center;
-font-size: 20px;
-margin-bottom: 16px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 16px;
 }
 
 .nav-primary li {
@@ -301,8 +380,9 @@ margin-bottom: 16px;
 
 /* footer */
 .footer-primary {
-  background-color: #1B1927;
-  background: #1B1927 url('../images/banners/banner-06.jpg') no-repeat 120% center;
+  background-color: #1b1927;
+  background: #1b1927 url('../images/banners/banner-06.jpg') no-repeat 120%
+    center;
   padding: 50px 50px 35px 50px;
   /* inheritable */
   font-size: 14px;
@@ -340,10 +420,10 @@ margin-bottom: 16px;
 }
 
 .footer-support i[class*='fa-'] {
-color: #ff6b6b;
-font-size: 28px;
-display: block;
-margin-bottom: 4px;
+  color: #ff6b6b;
+  font-size: 28px;
+  display: block;
+  margin-bottom: 4px;
 }
 
 .footer-contact {
@@ -392,7 +472,7 @@ margin-bottom: 4px;
 /* homepage */
 
 .content-main > section {
-margin-bottom: 98px;
+  margin-bottom: 98px;
 }
 
 .content-main > section > header {
@@ -409,7 +489,7 @@ margin-bottom: 98px;
 
 /* nu vrem sa avem mai mult de 4 per selector */
 .content-main > section > header h1 span {
-font-weight: 500;
+  font-weight: 500;
 }
 
 .content-main > section > header p {
@@ -420,8 +500,8 @@ font-weight: 500;
 
 .banner-main {
   height: 527px;
-  background: #1B1927 url('../images/banners/banner-01.jpg') center center/
-  cover no-repeat;
+  background: #1b1927 url('../images/banners/banner-01.jpg') center center/
+    cover no-repeat;
   color: #fff;
   font-size: 14px;
   margin-bottom: 96px;
@@ -504,24 +584,24 @@ font-weight: 500;
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  }
+}
 
-  .home-catalog-preview .home-catalog-ctas a::after,
-  .home-catalog-preview .home-catalog-ctas a::before {
-    display: inline-block;
-    width: 24px;
-    height: 1px;
-    background-color: #ff6b6b;
-    content: '';
-    transition: width 0.4s linear;
-  }
+.home-catalog-preview .home-catalog-ctas a::after,
+.home-catalog-preview .home-catalog-ctas a::before {
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background-color: #ff6b6b;
+  content: '';
+  transition: width 0.4s linear;
+}
 
-  .home-catalog-preview .home-catalog-ctas a:hover::after,
-  .home-catalog-preview .home-catalog-ctas a:hover::before {
+.home-catalog-preview .home-catalog-ctas a:hover::after,
+.home-catalog-preview .home-catalog-ctas a:hover::before {
   width: 72px;
 }
 
-  .product-tile {
+.product-tile {
   font-size: 24px;
   text-align: center;
 }
@@ -608,8 +688,8 @@ font-weight: 500;
   justify-content: center;
   width: 100%;
   height: 236px;
-  background: #1B1927 url('../images/banners/banner-04.jpg') center center /
-  cover no-repeat;
+  background: #1b1927 url('../images/banners/banner-04.jpg') center center /
+    cover no-repeat;
   color: #fff;
   font-size: 26px;
   font-weight: 700;
