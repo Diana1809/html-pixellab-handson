@@ -86,25 +86,27 @@
         <!-- ./header-connect -->
 
         <div class="header-controls">
-          <ul>
-            <li class="user-controls">
-              <form>
-                <button type="submit">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-                <input
-                  type="text"
-                  name="Search"
-                  id="Search"
-                  placeholder="Search"
-                />
-              </form>
+          <form>
+            <ul>
+              <li class="user-controls">
+                <form>
+                  <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                  <input
+                    type="text"
+                    name="Search"
+                    id="Search"
+                    placeholder="Search"
+                  />
+                </form>
 
-            <li><i class="fa-solid fa-user"></i></li>
-            <li><i class="fa-solid fa-heart"></i></li>
-            <li><i class="fa-solid fa-cart-shopping"></i></li>
-            </li>
-          </ul>
+              <li><i class="fa-solid fa-user"></i></li>
+              <li><i class="fa-solid fa-heart"></i></li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+              </li>
+            </ul>
+          </form>
         </div>
       </div>
       <!-- ./header-controls -->
@@ -437,16 +439,23 @@
           >
         </aside>
 
-        <h1>Watches for entrepreneurs</h1>
+        <section class="home-content-section">
+          <h1>Watches for entrepreneurs</h1>
 
-        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
-          will give you a complete account of the system, and expound the actual teachings of the great explorer of the
-          truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
-          <br>
-          But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
-          will give you a complete account of the system, and expound the actual teachings of the great explorer of the
-          truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
-        </p>
+          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and
+            I
+            will give you a complete account of the system, and expound the actual teachings of the great explorer of
+            the
+            truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
+            <br>
+          </p>
+          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and
+            I
+            will give you a complete account of the system, and expound the actual teachings of the great explorer of
+            the
+            truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
+          </p>
+        </section>
       </section>
 
       <section class="home-catalog-preview">
@@ -823,10 +832,21 @@
           <form>
             <p>Sign up for our newsletter</p>
 
-            <img
-              src="../monochrome/images/images/Rectangle 8.svg"
-              alt="white banner"
+            <input
+              type="email"
+              name="email"
+              placeholder="Email address"
+              required
+            ><br>
+
+            <input
+              type="checkbox"
+              name="subscribe"
+              id="subscribe"
             >
+            <label for="subscribe">
+              I agree to the <span>Privacy Policy </span>and I want to <br>receive emails from Monochromewe.
+            </label><br>
 
             <button type="submit">Submit</button>
         </div>
